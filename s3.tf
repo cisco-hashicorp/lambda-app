@@ -5,8 +5,8 @@ terraform {
     }
   }
   backend "remote" {
-    organization = "cisco-hashicorp"
-    
+     organization = "cisco-hashicorp"
+
     workspaces {
       name = "lambda-app"
     }
