@@ -8,7 +8,7 @@ terraform {
     organization = "cisco-hashicorp"
 
     workspaces {
-      name = "lambda-source"
+      name = "lambda-app"
     }
   }
 }
